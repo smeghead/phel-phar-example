@@ -1,0 +1,4 @@
+(ns module)
+
+(defn get-title []
+  "from module.")

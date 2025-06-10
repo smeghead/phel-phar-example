@@ -1,0 +1,9 @@
+(ns hello
+  (:require phel\str))
+
+(println "Hello, phel")
+
+(as-> "The Phel Language" it 
+  (str/upper-case it)
+  (str/pad-left it 30 " ")
+  (println it))
